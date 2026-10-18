@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Koyu lacivert arka plan -->
+    <path
+        android:fillColor="#050B1C"
+        android:pathData="M0,0H108V108H0Z" />
+
+    <!-- Turkuaz kalp -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#27B9F2"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,86 C49,81 19,60 19,39 C19,24 30,15 42,15 C48,15 52,18 54,22 C56,18 60,15 66,15 C78,15 89,24 89,39 C89,60 59,81 54,86Z" />
+
+    <!-- Kalp ritmi (EKG) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#71D8FA"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,51 L35,51 L41,43 L47,59 L52,27 L58,69 L64,41 L69,55 L75,51 L96,51" />
+
+    <!-- EKG uç noktaları -->
+    <path
+        android:fillColor="#27B9F2"
+        android:pathData="M10,51a2,2 0,1 0,4 0a2,2 0,1 0,-4 0M94,51a2,2 0,1 0,4 0a2,2 0,1 0,-4 0" />
+</vector>
